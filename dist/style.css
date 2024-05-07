@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Poppins' , sans-serif;
+    background: linear-gradient(to bottom, #055931, #087340);
+    color: #f1f1f1;
+}
+
+.font{
+    color: #b59c08;
+    font-weight: 900;
+}
+
+.bi-whatsapp{
+    background: linear-gradient(135deg, #25D366, #71aa70);
+    color: inherit;
+}
+
+.bi-instagram{
+    background-image: linear-gradient(135deg, #E1306C, #C13584, #833AB4, #5851DB, #405DE6); 
+    color: inherit;
+}
+
+.bi-facebook{
+    background-image: linear-gradient(135deg, #4267B2, #1a3263);
+    color: inherit;
+}
+
+.bi-youtube{
+    background-image: linear-gradient(135deg, #FF0000, #b90808);
+    color: inherit;
+}
+
+.list-group-item {
+    transition: transform 0.4s ease, color 0.3s ease;
+}
+
+.list-group-item:hover{
+    transform: scale(1.03);
+}
