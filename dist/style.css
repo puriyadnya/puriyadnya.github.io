@@ -13,7 +13,7 @@ body{
 }
 
 .bi-whatsapp{
-    background: linear-gradient(135deg, #25D366, #71aa70);
+    background: linear-gradient(135deg, #25D366, #0a8308);
     color: inherit;
 }
 
@@ -32,10 +32,15 @@ body{
     color: inherit;
 }
 
+.bi-globe{
+    background-image: linear-gradient(135deg, #b59c08, #8e7a09);
+    color: inherit;
+}
+
 .list-group-item {
     transition: transform 0.4s ease, color 0.3s ease;
 }
 
-.list-group-item:hover{
-    transform: scale(1.03) !important;
+.list-group-item:hover{ 
+    transform: scale(1.05) !important;
 }
