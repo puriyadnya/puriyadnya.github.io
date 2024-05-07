@@ -12,6 +12,11 @@ body{
     font-weight: 900;
 }
 
+.bi-tiktok{
+    background: linear-gradient(135deg,#ff0050,#00f2ea);
+    color: inherit;
+}
+
 .bi-whatsapp{
     background: linear-gradient(135deg, #25D366, #0a8308);
     color: inherit;
